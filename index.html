@@ -13,12 +13,13 @@
 
 <html>
 
-<h1>Word Counter<br>
-<button id="clear_button" type="button">Clear</button>
-<button id="hide_button" type="button">Toggle Counts</button>
-<button id="hipster_button" type="button">Hipster Filler</button>
-</h1>
-<br>
+<div class="header">
+<h1>Word Counter</h1>
+<div class="credits">
+script by <a href="http://thoppe.github.io">travis hoppe</a>,
+fork it on <a href="https://github.com/thoppe/one_gram.js">Github</a>
+<div>
+</div>
 
 <textarea 
    spellcheck="false"
@@ -28,9 +29,10 @@
    id="countbox"
    placeholder="Enter or paste some text">
 </textarea>
+<button id="clear_button" type="button">Clear</button>
+<button id="hide_button" type="button">Toggle Counts</button>
+<button id="hipster_button" type="button">Hipster Filler</button>
 
-<div class="output" id="result">
-</div>
 
-
+<div class="output" id="result"></div>
 </html>

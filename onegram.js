@@ -58,6 +58,7 @@ $(document).ready(function() {
     box.on("propertychange", update_box);
     
     $("#clear_button").click(function() {
+        box.attr("placeholder", "Enter or paste some text.");
         box.val("");
         update_box("#countbox");
     });

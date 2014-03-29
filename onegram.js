@@ -68,7 +68,7 @@ $(document).ready(function() {
     });
 
     $("#hipster_button").click(function() {
-        box.attr("placeholder", "Shhh. Don't tell anyone. You'll ruin it.");
+        box.attr("placeholder", "Shhh. Loading hipster ipsum. Don't tell anyone. You'll ruin it.");
 
         var payload = {paras:"2",
                        html:"false"};
